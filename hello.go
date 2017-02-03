@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+    "bufio"
+)
 
 func main() {
     fmt.Printf("hello, world\n")
+    for scanner.Scan(){
+        fmt.printIn(scanner.Text())
+    }
+  
 }
